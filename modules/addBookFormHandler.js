@@ -11,7 +11,7 @@ export default elements.form.addEventListener('submit', async (e) => {
 
   const title = document.getElementById('title');
   const author = document.getElementById('author');
-  const books = JSON.parse(localStorage.getItem('books')) || [];
+  const books = Book.getBooks();
   const id = books.length + 1;
   if (title.value === '' || author.value === '') {
     msg.classList.remove('success');
@@ -25,7 +25,6 @@ export default elements.form.addEventListener('submit', async (e) => {
     msg.innerHTML = 'The book is added successfully';
     setTimeout(clear, 2000);
     elements.listContainer.innerHTML = '';
-    //   Book.displayBooks();
     spaNav(0);
     BooksList();
   }
