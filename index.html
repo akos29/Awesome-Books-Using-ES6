@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome Books with ES6</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav_list">
+              <div>
+                <p>Awesome Books</p>
+              </div>
+              
+              <div class="nav_container">
+                  <ul>
+                     <li class="list_item"><a href="#list" class="nav_links">List</a></li>
+                     <li class="list_item"><a href="#add-new" class="nav_links">Add new</a></li>
+                    <li class="list_item"><a href="#contact" class="nav_links">Contact</a></li>
+                  </ul>
+              </div>
+            </nav>
+            <p id="date">Date <span id="time"> </span></p>
+        </header>
+    
+        <main class="main_container">
+         <section class="list_wrapper" id="list">
+            <h1> All awesome Books</h1>
+            
+             <div class="list_container">
+             </div>
+         </section>
+        
+         <section class="add_book" id="add-new"> 
+                <h2>Add a new book</h2>
+    
+                <form id="form" action="" method="">
+                    <input type="text" placeholder="Title" id="title">
+                    <input type="text" placeholder="Author"  id="author">
+                    <button type="submit" id="add">Add</button>
+                    <small class="error-message"></small>
+                </form>
+         </section>
+         
+         <section class="contact" id="contact">
+          <div>
+            <h2>Contact Information</h2>
+          </div>
+     
+          <div>
+            <p>If you have any questions, or you just want to say "hello"?</p>
+            <p>You can reach out to us!</p>
+          </div>
+     
+          <div>
+            <ul>
+                <li>Our e-mail:<a href="mailto:mail@mail.com" class="contact_links">mail@mail.com</a></li>
+                <li>Our phone number:<a href="tel:0043358653442" class="contact_links">0043358653442</a></li>
+                <li>Our address Streetname 22, 84503 City, Country</li>
+            </ul>
+          </div>
+       </section>     
+        </main>
+        
+       
+        <footer class="footer">
+            <p>Awesome Books &copy; 2022</p>
+        </footer>
+    
+     </div>
+    
+    
+<style type="module" src="./index.js"></style>
+</body>
+</html>
