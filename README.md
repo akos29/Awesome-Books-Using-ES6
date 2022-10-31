@@ -1,55 +1,51 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Description the project.
+> Awesome Books is a straightforward JavaScript website that lets users view books, add or remove books, and view the address of the website's owner.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+#### Major languages:
+>- [x] HTML5
+>- [x] CSS3
+>- [x] Javascript
+
+#### Technologies used
+>- [x] Linters
+>- [x] Luxon Library
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://akos29.github.io/Awesome-Books-Using-ES6/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- A web browser (like Google Chrome, Opera...).
+- A code editor (like Atom, VScode...).
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
+To setup the webpage locally: click on "**Code**" (dropdown list) then "**Download ZIP**".
 
 ### Deployment
+
+To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Kibrewossen Yitbarek**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@akos29](https://github.com/akos29)
+- Twitter: [@kbson](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
@@ -64,12 +60,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- All thankfulness to Microverse for equipping me with such skills to utilize in real-world projects and applications. 
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
