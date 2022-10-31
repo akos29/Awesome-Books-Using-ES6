@@ -13,3 +13,5 @@ for (let i = 0; i < elements.linkItem.length; i += 1) {
 BooksList();
 
 setInterval(nowDateTime, 1000);
+
+addBookFormHandler();

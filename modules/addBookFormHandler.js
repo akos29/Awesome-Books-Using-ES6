@@ -3,7 +3,7 @@ import Book from './books.js';
 import spaNav from './spaNav.js';
 import BooksList from './booksList.js';
 
-export default form.addEventListener('submit', async (e) => {
+export default elements.form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const msg = document.querySelector('.error-message');

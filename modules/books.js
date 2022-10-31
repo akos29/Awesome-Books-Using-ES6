@@ -1,5 +1,3 @@
-import * as elements from './elements.js';
-
 export default class Book {
   constructor(id, title, author) {
     this.id = id;
